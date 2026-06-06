@@ -8,12 +8,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-lg-8" id="main-content">Nội dung bài viết</div>
-            <div class="col-lg-4" id="sidebar">Thanh bên</div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">TRỌNG HIẾU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Dự án</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Xin chào, mình là Lương Trọng Hiếu!</h1>
+            <p class="lead mt-3">Sinh viên CNTT tại Đại học Thủy Lợi | Full-stack Developer</p>
+            <a href="projects.html" class="btn btn-light btn-lg mt-4 rounded-pill px-4">Xem Dự Án Của Mình</a>
+        </div>
+    </section>
+
+    <section class="container my-5 py-4">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h2 class="fw-bold mb-4">Về Mình</h2>
+                <p>Mình đam mê phát triển phần mềm và xây dựng các hệ thống tối ưu. Hiện tại, mình đang tập trung vào việc phát triển các ứng dụng Full-stack, từ thiết kế UI/UX đến kiến trúc hệ thống backend và cơ sở dữ liệu.</p>
+                <p>Ngoài code, mình còn có sở thích vọc vạch hệ điều hành Linux (Arch, Fedora) và tùy biến môi trường làm việc với Neovim/Hyprland.</p>
+            </div>
+            <div class="col-md-6">
+                <h2 class="fw-bold mb-4">Kỹ Năng Kỹ Thuật</h2>
+                <div>
+                    <span class="badge-tech">Java / Spring Boot</span>
+                    <span class="badge-tech">C# / WinForms</span>
+                    <span class="badge-tech">ReactJS</span>
+                    <span class="badge-tech">NextJS</span>
+                    <span class="badge-tech">Linux / Systemd</span>
+                    <span class="badge-tech">SQLite / SQL Server</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center text-md-start">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 Lương Trọng Hiếu. Built with HTML & Bootstrap.</p>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
